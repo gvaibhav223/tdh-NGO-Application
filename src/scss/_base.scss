@@ -6,6 +6,7 @@ body {
   overflow-x: hidden;
   font-family: "Saira Semi Condensed", sans-serif;
 }
+
 .buttonThemeHange {
   position: fixed !important;
   bottom: 55px;
@@ -13,13 +14,16 @@ body {
   left: 6px;
   // background-color: #e9e9e9  !important;
 }
+
 $blue: #0d8ccd;
 $black: #000;
 $small-font: 16px;
+
 .buttonThemeHange11 {
   display: flex;
   justify-content: space-between;
 }
+
 .heading1 {
   color: $blue;
   font-size: $small-font;
@@ -27,9 +31,11 @@ $small-font: 16px;
   display: flex;
   justify-content: center;
 }
+
 .textbox {
   h1 {
     color: red;
+
     &:hover {
       color: black;
     }
@@ -40,61 +46,77 @@ $small-font: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+
   &.justify-space-between {
     justify-content: space-between;
   }
+
   &.justify-start {
     justify-content: flex-start;
   }
+
   &.alignstart {
     align-items: flex-start !important;
   }
+
   &.justify-end {
     justify-content: flex-end;
   }
 }
+
 .height100 {
   height: 100%;
 }
+
 .padding10 {
   padding: 10px 0;
 }
+
 .extra-bold {
   font-weight: 700 !important;
 }
+
 .coin_list {
   .MuiTypography-body2 span {
     font-size: 17px;
     font-weight: 600;
   }
+
   .MuiTypography-body1 span {
     font-size: 13px;
     font-weight: 300;
   }
 }
+
 .d-flex {
   display: flex;
   justify-content: center;
   align-items: center;
+
   &.justify-space-between {
     justify-content: space-between;
   }
+
   &.justify-start {
     justify-content: flex-start;
   }
+
   &.alignstart {
     align-items: flex-start !important;
   }
+
   &.justify-end {
     justify-content: flex-end;
   }
 }
+
 .step_bar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   box-shadow: 0 0.1rem 0.7rem rgba(0, 0, 0, 0.1);
 }
+
 .completed,
 .activeStep {
   h5 {
@@ -108,6 +130,7 @@ $small-font: 16px;
     color: #31335d;
   }
 }
+
 .completed {
   height: 50px;
   width: 50px;
@@ -120,10 +143,12 @@ $small-font: 16px;
   position: relative;
   background-color: #fff;
 }
+
 .centero {
   margin: auto;
   max-width: 500px;
 }
+
 .activeStep {
   height: 50px;
   width: 50px;
@@ -144,11 +169,13 @@ $small-font: 16px;
     flex-direction: column;
   }
 }
+
 .page-heading {
   font-weight: 300 !important;
   font-size: 36px !important;
   line-height: 54px;
 }
+
 .page-heading2 {
   font-weight: 400 !important;
   font-size: 30px !important;
@@ -164,11 +191,13 @@ $small-font: 16px;
   //padding: 30px;
   //padding-bottom: 20px;
   border-radius: 5px;
+
   //background-color: #000;
   //border: 1px solid #efecec;
   &.MuiTextField-root {
     margin: 20px 0;
   }
+
   &h5 {
     margin: 10px 0;
   }
@@ -185,20 +214,24 @@ $small-font: 16px;
 .dzu-dropzone {
   overflow: auto !important;
 }
+
 .rightPosition {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 20px;
 }
+
 .notication-list {
   a {
     color: #000;
   }
 }
+
 .width120 {
   width: calc(100% - 150px);
 }
+
 .ellispsys {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -206,6 +239,7 @@ $small-font: 16px;
   white-space: pre;
   width: calc(100% - 30px);
 }
+
 .row-reverse {
   flex-direction: row-reverse;
   margin-left: -38px;
@@ -214,19 +248,23 @@ $small-font: 16px;
 .orderlist {
   order: 0;
 }
+
 @media screen and (max-width: 768px) {
   .orderlist {
     order: 1;
   }
+
   .row-reverse {
     margin-left: 0px;
     margin-bottom: 20px;
   }
+
   .activeStep {
     height: 35px;
     width: 35px;
     border: 3px solid #dfdfdf;
   }
+
   .completed {
     height: 35px;
     width: 35px;
@@ -240,10 +278,12 @@ $small-font: 16px;
     justify-content: space-around;
     box-shadow: 0 0.1rem 0.7rem rgba(0, 0, 0, 0.1);
   }
+
   .width120 {
     width: 100%;
     margin-bottom: 20px;
   }
+
   .rightPosition {
     position: absolute;
     top: auto;
@@ -253,11 +293,13 @@ $small-font: 16px;
     left: 55px;
   }
 }
+
 .side_nev_Bottom {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
+
 .loginForm {
   width: 90%;
   max-width: 600px;
@@ -265,25 +307,30 @@ $small-font: 16px;
   backdrop-filter: blur(5px);
   background-color: transparent;
 }
+
 .fullwidth {
   width: 100%;
 }
+
 .faqBg {
   height: 150px;
   background: url("https://dummyimage.com/600x400/00ab99/00ab99");
   border-radius: 12px;
 }
+
 .kycCard {
   border: 1px solid #e46a761f;
   background-color: #fff;
   padding: 15px;
   transition: all 0.3s ease-in-out;
   transform: translateY(0px);
+
   &:hover {
     transform: translateY(-5px);
     transition: all 0.3s ease-in-out;
   }
 }
+
 .boxCard {
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-image: none;
@@ -308,60 +355,63 @@ $small-font: 16px;
     justify-content: center;
   }
 }
+
 .greenicon {
   color: rgb(0, 123, 85);
-  background-image: linear-gradient(
-    135deg,
-    rgba(0, 123, 85, 0) 0%,
-    rgba(0, 123, 85, 0.24) 100%
-  );
+  background-image: linear-gradient(135deg,
+      rgba(0, 123, 85, 0) 0%,
+      rgba(0, 123, 85, 0.24) 100%);
 }
+
 .green {
   color: rgb(0, 82, 73);
   background-color: rgb(200, 250, 205);
 }
+
 .blueicon {
   color: rgb(12, 83, 183);
-  background-image: linear-gradient(
-    135deg,
-    rgba(12, 83, 183, 0) 0%,
-    rgba(12, 83, 183, 0.24) 100%
-  );
+  background-image: linear-gradient(135deg,
+      rgba(12, 83, 183, 0) 0%,
+      rgba(12, 83, 183, 0.24) 100%);
 }
+
 .blue {
   color: #dfdfdf;
   background-color: #31335d;
 }
+
 .gray {
   background: #b7c3d587;
 }
+
 .yellowicon {
   color: rgb(183, 129, 3);
-  background-image: linear-gradient(
-    135deg,
-    rgba(183, 129, 3, 0) 0%,
-    rgba(183, 129, 3, 0.24) 100%
-  );
+  background-image: linear-gradient(135deg,
+      rgba(183, 129, 3, 0) 0%,
+      rgba(183, 129, 3, 0.24) 100%);
 }
+
 .yellow {
   color: rgb(122, 79, 1);
   background-color: rgb(255, 247, 205);
 }
+
 .redicon {
   color: rgb(183, 33, 54);
-  background-image: linear-gradient(
-    135deg,
-    rgba(183, 33, 54, 0) 0%,
-    rgba(183, 33, 54, 0.24) 100%
-  );
+  background-image: linear-gradient(135deg,
+      rgba(183, 33, 54, 0) 0%,
+      rgba(183, 33, 54, 0.24) 100%);
 }
+
 .red {
   color: rgb(122, 12, 46);
   background-color: rgb(255, 231, 217);
 }
+
 .mixed-chart2 {
   height: 400px;
 }
+
 .userslist {
   background-color: #e0e0e0;
   border-radius: 4px;
@@ -371,6 +421,7 @@ $small-font: 16px;
   margin-bottom: 10px;
   padding: 7px;
   margin-right: 6px;
+
   a {
     font-size: 13px;
     font-weight: 600;
@@ -395,6 +446,7 @@ $small-font: 16px;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
+
 .TabButtonsBox1 {
   width: fit-content;
   border-bottom: 1px solid #1eb808;
@@ -427,9 +479,11 @@ $small-font: 16px;
   font-size: 16px;
   line-height: 22px;
 }
+
 .boxLine {
   border-bottom: 0.5px solid #3f3f3f;
 }
+
 .TabButtonsBox button {
   font-weight: 600 !important;
   font-size: 16px;
@@ -447,7 +501,7 @@ $small-font: 16px;
 
 .headingText {
   font-size: 50px;
-  color:"#F38500";
+  color: "#F38500";
   text-align: center;
 }
 
@@ -468,10 +522,12 @@ $small-font: 16px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   50% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
@@ -488,31 +544,37 @@ $small-font: 16px;
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+
   50% {
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
   }
+
   100% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
 }
+
 .jodit,
 .jodit *,
 .jodit-container,
 .jodit-container * {
   color: black;
   box-sizing: border-box;
-    border: 1px solid #f38500 !important;
-    border-radius: 5px !important;
+  border: 1px solid #f38500 !important;
+  border-radius: 5px !important;
 }
+
 .jodit-wysiwyg {
   min-height: 220px !important;
 }
+
 .jodit-container:not(.jodit_inline) {
   border: 1px solid #f38500 !important;
-  border-radius: 5px  !important;
+  border-radius: 5px !important;
 }
+
 .filterBox {
   margin-top: 20px;
   display: flex;
@@ -539,10 +601,11 @@ $small-font: 16px;
 }
 
 
-.MuiMenu-list{
+.MuiMenu-list {
   background: #F38500;
 }
-.barcharback{
+
+.barcharback {
   path#SvgjsPath1118 {
     fill: #f05440 !important;
   }
